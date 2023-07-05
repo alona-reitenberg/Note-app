@@ -1,0 +1,86 @@
+.mainback {
+  display: flex;
+  padding: 10px 0;
+  background: #f5f4f4 !important;
+  font-family: "Open Sans";
+  color: #4a6e78;
+  z-index: 1;
+  position: absolute;
+  padding-top: 5%;
+  top: 0;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.page {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+.row {
+  margin-right: auto !important;
+  margin-left: auto !important;
+
+  width: 70%;
+}
+.heading {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 5px 10px;
+}
+
+.nav-color {
+  background-color: white;
+  overflow: hidden;
+  z-index: 2;
+}
+
+h1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+h1:before {
+  width: 38px;
+  height: 5px;
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  margin-left: -10px;
+  background-color: #abbdc1;
+}
+
+h1:after {
+  width: 120px;
+  height: 1px;
+  display: block;
+  content: "";
+  position: relative;
+  margin-top: 25px;
+  left: 50%;
+  margin-left: -50px;
+  background-color: #abbdc1;
+}
+
+@media only screen and (min-width: 1200px) {
+}
+
+@media only screen and (max-width: 600px) {
+  .heading {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,71 @@
+.accordion {
+  --bs-accordion-active-bg: #f5f4f4;
+  --bs-accordion-btn-focus-box-shadow: 0;
+  --bs-accordion-btn-bg: #f5f4f4;
+}
+.accordion-button {
+  padding: 10px 15px 10px 15px;
+}
+
+.accordion-body {
+  padding: 10px 10px 10px 30px;
+}
+.btn {
+  --bs-btn-padding-x: 0.5rem;
+  --bs-btn-padding-y: 0.2rem;
+}
+
+.accordion-item {
+  /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+  border: 0;
+  border-top: 1px solid #d9e5e8;
+  background: #f5f4f4;
+}
+
+.btns {
+  border: 0;
+  background: none;
+  font-size: 17px;
+}
+
+/* CSS */
+.action-btn {
+  background-color: #b8c8c6;
+  border: 0;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  text-decoration: none #d1d5db solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.action-btn:hover {
+  background-color: #cad8d6;
+}
+
+.action-btn:focus {
+  outline: 2px solid transparent;
+  outline-offset: 4px;
+  background-color: #cad8d6;
+}
+
+.action-btn:focus-visible {
+  box-shadow: none;
+}
+
+.blockquote-footer {
+  font-size: small;
+}
